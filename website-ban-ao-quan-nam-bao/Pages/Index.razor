@@ -1,0 +1,58 @@
+﻿@page "/"
+@using website_ban_ao_quan_nam_bao.Data
+@using website_ban_ao_quan_nam_bao.Services
+@inject ProductService ProductService
+
+<PageTitle>Shop áo quần Fashion Nam</PageTitle>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-5">Shop áo quần Fashion Nam</h1>
+    <h2 class="text-center mb-4">Sản phẩm</h2>
+
+    <div class="row">
+        @foreach (var product in ProductService.GetProducts())
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm rounded">
+                    <img class="card-img-top rounded-top" src="@product.ImageUrl" alt="@product.Name" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text text-success">@product.Price.ToString("C")</p>
+                        <a href="/product/@product.Id" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+</style>

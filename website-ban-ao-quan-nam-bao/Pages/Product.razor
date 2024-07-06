@@ -1,0 +1,35 @@
+﻿@page "/product/{Id:int}"
+@using website_ban_ao_quan_nam_bao.Models
+@using website_ban_ao_quan_nam_bao.Services
+@inject ProductService ProductService
+@inject CartService CartService
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private website_ban_ao_quan_nam_bao.Models.Product product;
+
+    protected override void OnInitialized()
+    {
+        product = ProductService.GetProductById(Id);
+    }
+
+    private void AddToCart()
+    {
+        CartService.AddToCart(product);
+    }
+}
+
+@if (product != null)
+{
+    <h3>@product.Name</h3>
+    <img src="@product.ImageUrl" alt="@product.Name" />
+    <p>@product.Description</p>
+    <p>Giá: @product.Price.ToString("C")</p>
+    <button @onclick="AddToCart">Thêm vào giỏ hàng</button>
+}
+else
+{
+    <p>Không tìm thấy sản phẩm.</p>
+}

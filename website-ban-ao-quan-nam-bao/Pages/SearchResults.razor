@@ -1,0 +1,36 @@
+﻿@page "/searchresults/{query}"
+@using website_ban_ao_quan_nam_bao.Models
+@using website_ban_ao_quan_nam_bao.Services
+@inject ProductService ProductService
+
+@code {
+    [Parameter]
+    public string query { get; set; }
+
+    private List<website_ban_ao_quan_nam_bao.Models.Product> searchResults;
+
+    protected override void OnInitialized()
+    {
+        searchResults = ProductService.SearchProducts(query);
+    }
+}
+
+<h3>Kết quả tìm kiếm cho "@query"</h3>
+<div class="search-results">
+    @if (searchResults.Any())
+    {
+        @foreach (var product in searchResults)
+        {
+            <div class="product-item">
+                <img src="@product.ImageUrl" alt="@product.Name" />
+                <h4>@product.Name</h4>
+                <p>@product.Price.ToString("C")</p>
+                <a href="/product/@product.Id">Chi tiết</a>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Không tìm thấy sản phẩm nào.</p>
+    }
+</div>

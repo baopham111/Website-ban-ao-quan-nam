@@ -1,0 +1,98 @@
+is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = website_ban_ao_quan_nam_bao
+build_property.RootNamespace = website_ban_ao_quan_nam_bao
+build_property.ProjectDir = F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/AddProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/CustomerForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/PaidProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFpZFByb2R1Y3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/SearchResults.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Shared/SearchBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wkc0qkzvw4
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-y9dge4k6qz
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "website-ban-ao-quan-nam-bao/1.0.0": {
+        "dependencies": {
+          "MudBlazor": "7.0.0"
+        },
+        "runtime": {
+          "website-ban-ao-quan-nam-bao.dll": {}
+        }
+      },
+      "MudBlazor/7.0.0": {}
+    }
+  },
+  "libraries": {
+    "website-ban-ao-quan-nam-bao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MudBlazor/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kkCo95dUksJg/OA17OZnU0tiahc6/mxYdbD0aVxXJGiq+YgdhGIOQcl33teDQWT9c6/2w/4tca+mDXK+CFzikg==",
+      "path": "mudblazor/7.0.0",
+      "hashPath": "mudblazor.7.0.0.nupkg.sha512"
+    }
+  }
+}

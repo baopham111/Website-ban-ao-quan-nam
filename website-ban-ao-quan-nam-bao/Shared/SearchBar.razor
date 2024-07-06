@@ -1,0 +1,72 @@
+﻿@using website_ban_ao_quan_nam_bao.Services
+@inject ProductService ProductService
+@inject NavigationManager Navigation
+
+<div class="search-bar">
+    <input @bind="searchQuery" @oninput="SearchProduct" placeholder="Tìm kiếm sản phẩm..." />
+    <button @onclick="SearchProduct">Tìm kiếm</button>
+    <div class="search-results">
+        @if (searchResults != null && searchResults.Any())
+        {
+            @foreach (var product in searchResults)
+            {
+                <div class="product-item">
+                    <img src="@product.ImageUrl" alt="@product.Name" />
+                    <h4>@product.Name</h4>
+                    <p>@product.Price.ToString("C")</p>
+                    <button @onclick="() => NavigateToProduct(product.Id)">Mua ngay</button>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@code {
+    private string searchQuery;
+    private List<website_ban_ao_quan_nam_bao.Models.Product> searchResults = new List<website_ban_ao_quan_nam_bao.Models.Product>();
+
+    private void SearchProduct()
+    {
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            searchResults = ProductService.SearchProducts(searchQuery);
+        }
+        else
+        {
+            searchResults.Clear();
+        }
+    }
+
+    private void NavigateToProduct(int productId)
+    {
+        Navigation.NavigateTo($"/product/{productId}");
+        searchResults.Clear(); // Clear search results after navigation
+    }
+}
+
+<style>
+    .search-bar {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+        .search-bar input {
+            margin-right: 8px;
+        }
+
+    .search-results {
+        margin-top: 10px;
+    }
+
+    .product-item {
+        border-bottom: 1px solid #ccc;
+        padding: 5px 0;
+    }
+</style>

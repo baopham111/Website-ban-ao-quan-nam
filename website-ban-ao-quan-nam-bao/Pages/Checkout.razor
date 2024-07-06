@@ -1,0 +1,42 @@
+﻿@page "/checkout"
+@using website_ban_ao_quan_nam_bao.Models
+@using website_ban_ao_quan_nam_bao.Services
+@inject CartService CartService
+@inject PaidProductService PaidProductService
+
+<h3>Thông tin sản phẩm thanh toán</h3>
+
+@if (CartService.GetCartItems().Count == 0)
+{
+    <p>Không có sản phẩm trong giỏ hàng.</p>
+}
+else
+{
+    foreach (var item in CartService.GetCartItems())
+    {
+        <div>
+            <h4>@item.Product.Name</h4>
+            <p>Giá: @item.Product.Price.ToString("C")</p>
+            <p>Số lượng: @item.Quantity</p>
+        </div>
+    }
+
+    <button @onclick="ConfirmCheckout">Xác nhận thanh toán</button>
+}
+
+<p>@statusMessage</p>
+
+@code {
+    private string statusMessage = string.Empty;
+
+    private void ConfirmCheckout()
+    {
+        foreach (var item in CartService.GetCartItems())
+        {
+            PaidProductService.AddPaidProduct(item.Product);
+        }
+
+        CartService.ClearCart();
+        statusMessage = "Đã thanh toán";
+    }
+}

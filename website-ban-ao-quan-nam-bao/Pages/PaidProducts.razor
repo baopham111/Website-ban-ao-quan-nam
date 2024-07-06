@@ -1,0 +1,23 @@
+﻿@page "/paidproducts"
+@using website_ban_ao_quan_nam_bao.Models
+@using website_ban_ao_quan_nam_bao.Services
+@inject PaidProductService PaidProductService
+
+<h3>Sản phẩm đã thanh toán</h3>
+
+@if (PaidProductService.GetPaidProducts().Count == 0)
+{
+    <p>Không có sản phẩm đã thanh toán.</p>
+}
+else
+{
+    foreach (var product in PaidProductService.GetPaidProducts())
+    {
+        <div>
+            <h4>@product.Name</h4>
+            <p>Giá: @product.Price.ToString("C")</p>
+            <p>@product.Description</p>
+            <img src="@product.ImageUrl" alt="@product.Name" />
+        </div>
+    }
+}

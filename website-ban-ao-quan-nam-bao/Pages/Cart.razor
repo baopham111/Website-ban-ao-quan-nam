@@ -1,0 +1,33 @@
+﻿@page "/cart"
+@using website_ban_ao_quan_nam_bao.Models
+@using website_ban_ao_quan_nam_bao.Services
+@inject CartService CartService
+@inject NavigationManager Navigation
+
+<h3>Giỏ hàng của bạn</h3>
+<div class="cart-items">
+    @foreach (var item in CartService.GetCartItems())
+    {
+        <div class="cart-item">
+            <img src="@item.Product.ImageUrl" alt="@item.Product.Name" />
+            <h4>@item.Product.Name</h4>
+            <p>Giá: @item.Product.Price.ToString("C")</p>
+            <p>Số lượng: @item.Quantity</p>
+        </div>
+    }
+</div>
+<button @onclick="ClearCart">Xóa giỏ hàng</button>
+<button @onclick="Checkout">Thanh toán</button>
+
+@code {
+    private void ClearCart()
+    {
+        CartService.ClearCart();
+    }
+
+    private void Checkout()
+    {
+        // Điều hướng đến trang thanh toán
+        Navigation.NavigateTo("/checkout");
+    }
+}
