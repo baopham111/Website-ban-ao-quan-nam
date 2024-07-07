@@ -1,24 +1,35 @@
 ﻿@page "/"
 @using website_ban_ao_quan_nam_bao.Data
 @using website_ban_ao_quan_nam_bao.Services
+@inject NavigationManager NavigationManager
 @inject ProductService ProductService
 
 <PageTitle>Shop áo quần Fashion Nam</PageTitle>
 
 <div class="container mt-4">
-    <h1 class="text-center mb-5">Shop áo quần Fashion Nam</h1>
-    <h2 class="text-center mb-4">Sản phẩm</h2>
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <h1 class="shop-title">Shop áo quần Fashion Nam</h1>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <div class="search-bar d-flex align-items-center">
+            <input @bind="searchQuery" type="text" placeholder="Tìm kiếm sản phẩm..." class="form-control" />
+            <button @onclick="NavigateToSearchResults" class="btn btn-primary ml-2">Tìm kiếm</button>
+        </div>
+    </div>
+    <h2 class="text-center mb-4">Danh sách Sản phẩm</h2>
 
     <div class="row">
         @foreach (var product in ProductService.GetProducts())
         {
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <div class="card h-100 shadow-sm rounded">
-                    <img class="card-img-top rounded-top" src="@product.ImageUrl" alt="@product.Name" />
+                    <NavLink href="@( $"/product/{product.Id}")">
+                        <img class="card-img-top rounded-top" src="@product.ImageUrl" alt="@product.Name" />
+                    </NavLink>
                     <div class="card-body text-center">
                         <h5 class="card-title">@product.Name</h5>
                         <p class="card-text text-success">@product.Price.ToString("C")</p>
-                        <a href="/product/@product.Id" class="btn btn-primary">Mua ngay</a>
+                        <NavLink href="@( $"/product/{product.Id}")" class="btn btn-primary">Mua ngay</NavLink>
                     </div>
                 </div>
             </div>
@@ -26,33 +37,14 @@
     </div>
 </div>
 
-<style>
-    .card {
-        transition: transform 0.2s ease-in-out;
-    }
+@code {
+    private string searchQuery = "";
 
-        .card:hover {
-            transform: scale(1.05);
+    private void NavigateToSearchResults()
+    {
+        if (!string.IsNullOrWhiteSpace(searchQuery))
+        {
+            NavigationManager.NavigateTo($"/searchresults/{searchQuery}");
         }
-
-    .card-body {
-        padding: 1.5rem;
     }
-
-    .card-title {
-        font-size: 1.25rem;
-        font-weight: bold;
-    }
-
-    .btn-primary {
-        background-color: #007bff;
-        border-color: #007bff;
-        font-size: 1rem;
-        padding: 0.5rem 1.5rem;
-    }
-
-        .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
-</style>
+}

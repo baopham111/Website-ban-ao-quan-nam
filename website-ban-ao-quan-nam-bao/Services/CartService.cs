@@ -1,6 +1,5 @@
 ﻿using website_ban_ao_quan_nam_bao.Models;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace website_ban_ao_quan_nam_bao.Services
 {
@@ -8,16 +7,16 @@ namespace website_ban_ao_quan_nam_bao.Services
     {
         private List<CartItem> cartItems = new List<CartItem>();
 
-        public void AddToCart(Product product)
+        public void AddToCart(Product product, int quantity)
         {
-            var cartItem = cartItems.FirstOrDefault(ci => ci.Product.Id == product.Id);
-            if (cartItem != null)
+            var existingItem = cartItems.Find(item => item.Product.Id == product.Id);
+            if (existingItem != null)
             {
-                cartItem.Quantity++;
+                existingItem.Quantity += quantity;
             }
             else
             {
-                cartItems.Add(new CartItem { Product = product, Quantity = 1 });
+                cartItems.Add(new CartItem { Product = product, Quantity = quantity });
             }
         }
 

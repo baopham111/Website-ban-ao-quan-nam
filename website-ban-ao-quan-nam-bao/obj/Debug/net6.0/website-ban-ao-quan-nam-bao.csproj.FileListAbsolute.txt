@@ -29,3 +29,4 @@ F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\obj
 F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\obj\Debug\net6.0\website-ban-ao-quan-nam-bao.pdb
 F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\obj\Debug\net6.0\website-ban-ao-quan-nam-bao.genruntimeconfig.cache
 F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\obj\Debug\net6.0\ref\website-ban-ao-quan-nam-bao.dll
+F:\DO-AN-CA-NHAN-WEB\website-ban-ao-quan-nam-bao\website-ban-ao-quan-nam-bao\obj\Debug\net6.0\website-ban-ao-quan-nam-bao.sourcelink.json

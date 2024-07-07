@@ -1,45 +1,66 @@
-﻿@using Microsoft.AspNetCore.Components.Routing
-
-<nav class="nav">
-    <NavLink class="nav-link" href="">
-        <span class="oi oi-home" aria-hidden="true"></span> Home
-    </NavLink>
-    <NavLink class="nav-link" href="cart">
-        <span class="oi oi-cart" aria-hidden="true"></span> Giỏ hàng
-    </NavLink>
-    <NavLink class="nav-link" href="checkout">
-        <span class="oi oi-credit-card" aria-hidden="true"></span> Thanh toán
-    </NavLink>
-
-    @* Add this to your existing NavMenu.razor *@
-    <NavLink class="nav-link" href="/paidproducts">
-        <span class="oi oi-check" aria-hidden="true"></span> Sản phẩm đã thanh toán
-    </NavLink>
-
-    
-        
-    
+﻿<nav class="sidebar">
+    <ul>
+        <li>
+            <NavLink class="nav-link" href="/">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li>
+            <NavLink class="nav-link" href="/cart">
+                <span class="oi oi-cart" aria-hidden="true"></span> Giỏ hàng
+            </NavLink>
+        </li>
+        <li>
+            <NavLink class="nav-link" href="/checkout">
+                <span class="oi oi-credit-card" aria-hidden="true"></span> Thanh toán
+            </NavLink>
+        </li>
+        <li>
+            <NavLink class="nav-link" href="/paidproducts">
+                <span class="oi oi-check" aria-hidden="true"></span> Sản phẩm đã thanh toán
+            </NavLink>
+        </li>
+    </ul>
 </nav>
 
 <style>
-    .nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .sidebar {
+        width: 250px;
+        background: linear-gradient(180deg, #2c3e50, #4ca1af);
+        padding: 10px;
+        position: fixed;
+        height: 100%;
+        color: #ecf0f1;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     }
 
-    .nav-link {
-        color: white; /* Đặt màu chữ cho các liên kết NavLink */
-        margin: 0 20px;
-        text-decoration: none;
-        font-size: 1.2rem;
-    }
-
-        .nav-link:hover {
-            color: #ffeb3b; /* Màu khi hover chuột qua các liên kết */
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
         }
 
-        .nav-link.active {
-            font-weight: bold;
-        }
+            .sidebar ul li {
+                margin: 20px 0;
+            }
+
+                .sidebar ul li a {
+                    color: #ecf0f1;
+                    text-decoration: none;
+                    font-size: 18px;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 5px;
+                    transition: background 0.3s, color 0.3s;
+                }
+
+                    .sidebar ul li a span {
+                        margin-right: 10px;
+                    }
+
+                    .sidebar ul li a.active,
+                    .sidebar ul li a:hover {
+                        background-color: #1abc9c;
+                        color: #fff;
+                    }
 </style>

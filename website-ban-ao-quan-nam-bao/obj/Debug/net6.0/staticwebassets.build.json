@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5k05sLSwXYCtFSwGwM69iQNvnNmAnGXqcezPeNd4iXo=",
+  "Hash": "o4DtaWnV7fAeS88z1IeK/efgGWvNL5v8z764SJjmOso=",
   "Source": "website-ban-ao-quan-nam-bao",
   "BasePath": "_content/website-ban-ao-quan-nam-bao",
   "Mode": "Default",
@@ -319,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css",
+      "SourceId": "website-ban-ao-quan-nam-bao",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\",
+      "BasePath": "_content/website-ban-ao-quan-nam-bao",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\favicon.ico",

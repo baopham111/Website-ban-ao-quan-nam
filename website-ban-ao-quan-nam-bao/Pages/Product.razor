@@ -3,12 +3,14 @@
 @using website_ban_ao_quan_nam_bao.Services
 @inject ProductService ProductService
 @inject CartService CartService
+@inject NavigationManager Navigation
 
 @code {
     [Parameter]
     public int Id { get; set; }
 
     private website_ban_ao_quan_nam_bao.Models.Product product;
+    private int quantity = 1;
 
     protected override void OnInitialized()
     {
@@ -17,7 +19,21 @@
 
     private void AddToCart()
     {
-        CartService.AddToCart(product);
+        CartService.AddToCart(product, quantity); // Thêm sản phẩm với số lượng được chỉ định
+        Navigation.NavigateTo("/cart");
+    }
+
+    private void IncreaseQuantity()
+    {
+        quantity++;
+    }
+
+    private void DecreaseQuantity()
+    {
+        if (quantity > 1)
+        {
+            quantity--;
+        }
     }
 }
 
@@ -27,9 +43,43 @@
     <img src="@product.ImageUrl" alt="@product.Name" />
     <p>@product.Description</p>
     <p>Giá: @product.Price.ToString("C")</p>
-    <button @onclick="AddToCart">Thêm vào giỏ hàng</button>
+    <div class="quantity-control">
+        <button class="quantity-button" @onclick="DecreaseQuantity">-</button>
+        <input type="number" value="@quantity" min="1" readonly />
+        <button class="quantity-button" @onclick="IncreaseQuantity">+</button>
+    </div>
+    <button class="add-to-cart-button" @onclick="AddToCart">Thêm vào giỏ hàng</button>
 }
 else
 {
     <p>Không tìm thấy sản phẩm.</p>
 }
+
+<style>
+    .quantity-control {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .quantity-button {
+        padding: 5px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .add-to-cart-button {
+        padding: 10px 20px;
+        border: 1px solid #007bff; /* Blue border */
+        background-color: #007bff; /* Blue background */
+        color: #fff; /* White text */
+        font-size: 1rem;
+        transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    }
+
+        .add-to-cart-button:hover {
+            background-color: #0056b3; /* Darker blue background on hover */
+            border-color: #004085; /* Darker blue border on hover */
+        }
+</style>

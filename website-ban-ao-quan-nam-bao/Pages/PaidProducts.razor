@@ -11,13 +11,17 @@
 }
 else
 {
-    foreach (var product in PaidProductService.GetPaidProducts())
+    foreach (var paidProduct in PaidProductService.GetPaidProducts())
     {
         <div>
-            <h4>@product.Name</h4>
-            <p>Giá: @product.Price.ToString("C")</p>
-            <p>@product.Description</p>
-            <img src="@product.ImageUrl" alt="@product.Name" />
+            <h4>@paidProduct.Product.Name</h4>
+            <p>Giá: @paidProduct.Product.Price.ToString("C")</p>
+            <p>Mô tả: @paidProduct.Product.Description</p>
+            <img src="@paidProduct.Product.ImageUrl" alt="@paidProduct.Product.Name" />
+            <h5>Thông tin khách hàng</h5>
+            <p>Tên: @paidProduct.CustomerInfo.Ten</p>
+            <p>Email: @paidProduct.CustomerInfo.Email</p>
+            <p>Địa chỉ: @paidProduct.CustomerInfo.DiaChi</p>
         </div>
     }
 }

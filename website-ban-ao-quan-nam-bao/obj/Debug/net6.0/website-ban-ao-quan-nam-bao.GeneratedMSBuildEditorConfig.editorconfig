@@ -25,6 +25,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Components/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/AddProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/CustomerInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJJbmZvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -63,6 +71,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/SearchResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Pages/Success.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/DO-AN-CA-NHAN-WEB/website-ban-ao-quan-nam-bao/website-ban-ao-quan-nam-bao/Shared/SearchBar.razor]

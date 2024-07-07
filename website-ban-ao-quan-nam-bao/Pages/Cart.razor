@@ -4,20 +4,36 @@
 @inject CartService CartService
 @inject NavigationManager Navigation
 
-<h3>Giỏ hàng của bạn</h3>
-<div class="cart-items">
-    @foreach (var item in CartService.GetCartItems())
+<PageTitle>Cart</PageTitle>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-5">Giỏ hàng của bạn</h1>
+
+    @if (CartService.GetCartItems().Any())
     {
-        <div class="cart-item">
-            <img src="@item.Product.ImageUrl" alt="@item.Product.Name" />
-            <h4>@item.Product.Name</h4>
-            <p>Giá: @item.Product.Price.ToString("C")</p>
-            <p>Số lượng: @item.Quantity</p>
+        <div class="text-center">
+            <div class="cart-items">
+                @foreach (var item in CartService.GetCartItems())
+                {
+                    <div class="cart-item">
+                        <img src="@item.Product.ImageUrl" alt="@item.Product.Name" />
+                        <h4>@item.Product.Name</h4>
+                        <p>Giá: @item.Product.Price.ToString("C")</p>
+                        <p>Số lượng: @item.Quantity</p>
+                    </div>
+                }
+            </div>
+            <div class="cart-buttons">
+                <button class="clear-cart-button" @onclick="ClearCart">Xóa giỏ hàng</button>
+                <button class="checkout-button" @onclick="ProceedToCheckout">Thanh toán</button>
+            </div>
         </div>
     }
+    else
+    {
+        <p class="text-center">Giỏ hàng của bạn trống.</p>
+    }
 </div>
-<button @onclick="ClearCart">Xóa giỏ hàng</button>
-<button @onclick="Checkout">Thanh toán</button>
 
 @code {
     private void ClearCart()
@@ -25,9 +41,9 @@
         CartService.ClearCart();
     }
 
-    private void Checkout()
+    private void ProceedToCheckout()
     {
-        // Điều hướng đến trang thanh toán
+        // Logic chuyển đến trang thanh toán
         Navigation.NavigateTo("/checkout");
     }
 }

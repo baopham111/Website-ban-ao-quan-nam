@@ -3,40 +3,78 @@
 @using website_ban_ao_quan_nam_bao.Services
 @inject CartService CartService
 @inject PaidProductService PaidProductService
+@inject NavigationManager Navigation
 
-<h3>Thông tin sản phẩm thanh toán</h3>
+<PageTitle>Checkout</PageTitle>
 
-@if (CartService.GetCartItems().Count == 0)
-{
-    <p>Không có sản phẩm trong giỏ hàng.</p>
-}
-else
-{
-    foreach (var item in CartService.GetCartItems())
+<div class="container mt-4">
+    <h3>Thông tin sản phẩm thanh toán</h3>
+
+    @if (CartService.GetCartItems().Count == 0)
     {
-        <div>
-            <h4>@item.Product.Name</h4>
-            <p>Giá: @item.Product.Price.ToString("C")</p>
-            <p>Số lượng: @item.Quantity</p>
-        </div>
+        <p>Không có sản phẩm trong giỏ hàng.</p>
     }
-
-    <button @onclick="ConfirmCheckout">Xác nhận thanh toán</button>
-}
-
-<p>@statusMessage</p>
-
-@code {
-    private string statusMessage = string.Empty;
-
-    private void ConfirmCheckout()
+    else
     {
         foreach (var item in CartService.GetCartItems())
         {
-            PaidProductService.AddPaidProduct(item.Product);
+            <div>
+                <h4>@item.Product.Name</h4>
+                <p>Giá: @item.Product.Price.ToString("C")</p>
+                <p>Số lượng: @item.Quantity</p>
+                <p>Tổng tiền: @(item.Product.Price * item.Quantity)</p>
+            </div>
+        }
+
+        <EditForm Model="thongTinKhachHang" OnValidSubmit="XacNhanThanhToan">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label for="ten">Tên:</label>
+                <InputText id="ten" class="form-control" @bind-Value="thongTinKhachHang.Ten" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <InputText id="email" class="form-control" @bind-Value="thongTinKhachHang.Email" />
+            </div>
+
+            <div class="form-group">
+                <label for="diachi">Địa chỉ:</label>
+                <InputText id="diachi" class="form-control" @bind-Value="thongTinKhachHang.DiaChi" />
+            </div>
+
+            <button type="submit" class="confirm-button">Xác nhận thanh toán</button>
+        </EditForm>
+    }
+
+    <p>@thongBaoTrangThai</p>
+</div>
+
+@code {
+    private string thongBaoTrangThai = string.Empty;
+
+    private ThongTinKhachHang thongTinKhachHang = new ThongTinKhachHang();
+
+    private async Task XacNhanThanhToan()
+    {
+        foreach (var item in CartService.GetCartItems())
+        {
+            PaidProductService.AddPaidProduct(item.Product, thongTinKhachHang);
         }
 
         CartService.ClearCart();
-        statusMessage = "Đã thanh toán";
+        thongBaoTrangThai = "Đã thanh toán. Cảm ơn bạn đã mua hàng!";
+
+        // Chuyển hướng đến trang sản phẩm đã thanh toán
+        Navigation.NavigateTo("/paidproducts");
+    }
+
+    public class ThongTinKhachHang
+    {
+        public string Ten { get; set; }
+        public string Email { get; set; }
+        public string DiaChi { get; set; }
     }
 }

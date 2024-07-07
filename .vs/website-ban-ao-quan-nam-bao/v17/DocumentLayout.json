@@ -43,8 +43,20 @@
       "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\services\\paidproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\pages\\success.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\pages\\success.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\pages\\searchresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -69,6 +81,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\pages\\customerinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\pages\\customerinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\pages\\customerform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,8 +127,16 @@
       "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\components\\productdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\components\\productdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|solutionrelative:website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E243E955-9AD8-4457-B0FD-DBF9163E0591}|website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj|f:\\do-an-ca-nhan-web\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -136,11 +160,10 @@
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Shared\\NavMenu.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\NavMenu.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Shared\\NavMenu.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-05T12:02:11.392Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -154,10 +177,9 @@
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Shared\\SearchBar.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\SearchBar.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Shared\\SearchBar.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T13:10:51.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:10:51.299Z"
             },
             {
               "$type": "Document",
@@ -169,8 +191,7 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Shared\\SurveyPrompt.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T00:00:40.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:00:40.239Z"
             },
             {
               "$type": "Document",
@@ -182,8 +203,7 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T15:18:44.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:18:44.127Z"
             },
             {
               "$type": "Document",
@@ -195,8 +215,7 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T15:18:30.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:18:30.505Z"
             },
             {
               "$type": "Document",
@@ -206,10 +225,9 @@
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\appsettings.json",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\appsettings.json",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-05T15:19:17.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:19:17.591Z"
             },
             {
               "$type": "Document",
@@ -219,22 +237,9 @@
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Program.cs",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Program.cs",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T11:29:05.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
-              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
-              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
-              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T13:11:36.379Z",
               "EditorCaption": ""
             },
             {
@@ -247,16 +252,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T13:11:36.379Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ProductService.cs",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Services\\ProductService.cs",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\ProductService.cs",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Services\\ProductService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwBcAAAAKAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwBMAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:28:39.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:28:39.631Z"
             },
             {
               "$type": "Document",
@@ -266,105 +282,145 @@
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Services\\PaidProductService.cs",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\PaidProductService.cs",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Services\\PaidProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:23:57.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:23:57.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Services\\EmailService.cs",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\EmailService.cs",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:18:16.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Services\\CustomerService.cs",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\CustomerService.cs",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:20:23.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CartService.cs",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Services\\CartService.cs",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Services\\CartService.cs",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Services\\CartService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwBMAAABQAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:30:26.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:30:26.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
+              "Title": "Success.razor",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Success.razor",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Success.razor",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Success.razor",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Success.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T08:33:47.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "SearchResults.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\SearchResults.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\SearchResults.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\SearchResults.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\SearchResults.razor",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwCQAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T12:17:56.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T12:17:56.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Product.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Product.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Product.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Product.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Product.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:29:45.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:29:45.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PaidProducts.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\PaidProducts.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\PaidProducts.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\PaidProducts.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\PaidProducts.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T15:23:29.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:23:29.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Index.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Index.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Index.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Index.razor",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAAcAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:22:22.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:22:22.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "FetchData.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\FetchData.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\FetchData.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\FetchData.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\FetchData.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAPAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:32:20.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:32:20.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Error.cshtml",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Error.cshtml",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Error.cshtml",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAUAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:34:41.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:34:41.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
+              "Title": "CustomerInfo.razor",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\CustomerInfo.razor",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\CustomerInfo.razor",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\CustomerInfo.razor",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\CustomerInfo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T08:33:10.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CustomerForm.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\CustomerForm.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\CustomerForm.razor",
@@ -372,12 +428,11 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\CustomerForm.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T00:19:44.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:19:44.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Counter.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Counter.razor",
@@ -385,77 +440,71 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Counter.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:34:39.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:34:39.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Checkout.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Checkout.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Checkout.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Checkout.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Checkout.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAABcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T12:09:44.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T12:09:44.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Cart.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Cart.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\Cart.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\Cart.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\Cart.razor",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBkAAAAFAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:30:07.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:30:07.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AddProduct.razor",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\AddProduct.razor",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\AddProduct.razor",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\AddProduct.razor",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\AddProduct.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAwAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T15:06:27.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:06:27.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\_Layout.cshtml",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\_Layout.cshtml",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\_Layout.cshtml",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T11:34:32.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:34:32.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Pages\\_Host.cshtml",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Pages\\_Host.cshtml",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Pages\\_Host.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T12:25:30.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T12:25:30.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Models\\Product.cs",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Models\\Product.cs",
@@ -463,12 +512,11 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:27:31.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:27:31.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Customer.cs",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Models\\Customer.cs",
@@ -476,12 +524,11 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Models\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T00:18:51.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T00:18:51.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "CartItem.cs",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Models\\CartItem.cs",
@@ -489,25 +536,47 @@
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Models\\CartItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:28:04.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:28:04.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
+              "Title": "ProductDetails.razor",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Components\\ProductDetails.razor",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\Components\\ProductDetails.razor",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\Components\\ProductDetails.razor",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\Components\\ProductDetails.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T06:19:52.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "site.css",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css",
               "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css",
               "RelativeToolTip": "website-ban-ao-quan-nam-bao\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAADAAAAAAAAAAAAAqwEkAAAAAAAAA",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAMgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-05T16:04:08.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T16:04:08.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
+              "Title": "styles.css",
+              "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css",
+              "ToolTip": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "website-ban-ao-quan-nam-bao\\wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-06T11:04:48.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "website-ban-ao-quan-nam-bao.csproj",
               "DocumentMoniker": "F:\\DO-AN-CA-NHAN-WEB\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj",
               "RelativeDocumentMoniker": "website-ban-ao-quan-nam-bao\\website-ban-ao-quan-nam-bao.csproj",
